@@ -1,0 +1,36 @@
+
+#banner{
+  background-image: url("backgrounds/landing.jpg");
+  background-position: center 100%;
+  background-repeat: no-repeat;
+  object-fit: cover; 
+  height: 75vh;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.logo{
+  position: relative;
+  display: inline-block;
+  top: 25px;
+  left: 40%;
+}
+
+#foodtop{
+  display: inline-block;
+}
+  
+h1{
+  color: white;
+  text-align: center;
+}
+#foodtop{
+  display: flex;
+  justify-content: right;
+  margin-left: 250px;
+
+}
+.breakfast, .lunch , .dinner{
+  padding: 5px;
+}
+
