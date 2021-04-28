@@ -1,13 +1,25 @@
+body{
+  font-family: sans-serif;
+  background-color: honeydew;
+  width: 100%;
+  margin: auto;
+}
+#header{
+  text-align: center;
+  color: white;
+  font-size: 25px;
+}
 
 #banner{
   background-image: url("backgrounds/landing.jpg");
-  background-position: center 100%;
+  background-position: center;
   background-repeat: no-repeat;
   object-fit: cover; 
   height: 75vh;
   top: 0;
   left: 0;
   width: 100%;
+  background-color: none;
 }
 .logo{
   position: relative;
@@ -15,22 +27,117 @@
   top: 25px;
   left: 40%;
 }
-
-#foodtop{
-  display: inline-block;
-}
-  
-h1{
-  color: white;
-  text-align: center;
-}
-#foodtop{
+.hours{
   display: flex;
-  justify-content: right;
-  margin-left: 250px;
+  width: 100%;
+  color: black;
+  align-items:center ;
+  box-sizing: border-box;
+  font-size: 20px;
+  height: 100px;
+}
+.happy{
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-bottom:1px solid black;
+  height: 50px;
+}
+.party{
+  background-color: #F15A29;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  color: white;
+}
+.time{
+  width: 30%;
+}
+#breakfast{
+  background-image: url("foodtop/breakfast.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 30%;
+  
+}
+#lunch{
+  background-image: url("foodtop/lunch.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 30%;
+  
 
 }
-.breakfast, .lunch , .dinner{
-  padding: 5px;
+#dinner{
+  background-image: url("foodtop/dinner2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 30%;
+  
+}
+#breakfast, #lunch, #dinner{
+  color: white;
+ 
+}
+
+
+main{
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.fooditems{
+  background-image: url("backgrounds/foodsBg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+
+}
+main{
+  padding: 10px;
+  margin: auto;
+  margin-top: 250px;
+  padding-top: 0;
+  flex-direction: row;
+  height: auto;
+  box-sizing: border-box;
+} 
+
+#content-1, #content-2{
+  flex-direction: row;
+}
+
+.fastfood-images1 , .drinks{
+  border:2px solid honeydew;
+  box-shadow: 2px 2px 5px black;
+  width
+}
+
+ 
+.glink {
+  color: #F15A29;
+  text-decoration: none;
+  border: 2px solid #F15A29;
+  padding: 12px 8px ;
+
 }
 
