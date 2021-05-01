@@ -197,11 +197,15 @@ main{
   padding: 5px;
   width: 25%;
   font-weight: 600;
-  border: 0.5px solid grey;
-  background-color: rgb(153, 145, 145);
+  border: 0.5px solid rgb(150, 150, 150);
+  background-color: rgb(194, 193, 193);
   color: white;
+}
 
-
+.buttons:hover{
+  background-color: #fff;
+  color: #F15A29;
+  border: none;
 }
 
 .footer-images{
@@ -231,20 +235,73 @@ margin-top: 120px;
   color: #F15A29;
   margin-top: 50px; 
 }
-.happycustomer{
+.feedback-section{
+  padding: 100px 200px;
   text-align: center;
-  padding-left: 10px;
- 
+  
+
+}
+.customer-images{
+  display: flex;
+  justify-content: center;
+}
+.customer-about{
+  display: flex;
+  box-shadow: 2px 2px 5px grey;
+  padding: 20px;
+}
+.happy-customer{
+  width: 60%;
+  padding: 15px;
 }
 .about{
-padding-left: 100px;
-display:flex;
-justify-content: center;
+  width: 40%;
+  padding: 15px;
+  border-left:1px solid grey ;
 }
-#feedback.happycustomer.about,h3{
-  color: red;
+.subscription-section{
+  /* display: flex; */
+  justify-content: center;
   text-align: center;
+  background-image: url(backgrounds/subscribe.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30vh;
+  padding-top: 70px;
+} 
+input{
+  padding: 15px;
+  border-radius: 8px;
+
 }
-#feedback.happycustomer.about,H4{
+.email button{
+  padding: 15px;
+  width: 150px;
+  background-color: #F15A29;
+  margin-left:10px ;
+  border-radius: 8px;
+}
+footer{
+  background-color: #F15A29;
+  height: 40vh;
+  justify-content: center;
   text-align: center;
+  color: white;
 }
+.footerlogo{
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+.footerlogo h1{
+  padding-left:8px; 
+}
+.footer-icons img{
+  margin: 5px;
+}
+footer p{
+  font-size: 12px;  
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
