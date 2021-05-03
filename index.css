@@ -250,10 +250,33 @@ margin-top: 120px;
   width: 60%;
   padding: 15px;
 }
+.happy-customer h3{
+  color: #F15A29;
+}
+.happy-customer .customer-images .next{
+  float: left;
+  padding-top: 17px;
+  padding-right: 10px;
+  margin: 0;
+
+}
+.happy-customer .customer-images .next1{
+  float: right;
+  color: #F15A29;
+  padding-top: 17px;
+  padding-left: 10px;
+
+}
+.geor{
+  font-weight: 700;
+}
 .about{
   width: 40%;
   padding: 15px;
   border-left:1px solid grey ;
+}
+.about h3{
+  color: #F15A29;
 }
 .subscription-section h4{
   font-size: 25px;
