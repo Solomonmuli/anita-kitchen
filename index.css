@@ -32,7 +32,8 @@ body{
   background-color: white;
   background-size: cover ;
   padding-bottom:12px ;
- 
+  display: flex;
+  justify-content: center;
 
 }
 .party{
@@ -49,10 +50,13 @@ body{
 .time{
   width: 100%;
   display: flex;
-  margin-top: 52px;
-  padding: 0;
-
+  justify-content: center;
+  margin: 0;
 }
+.breakfast:hover{
+  background-color: grey;
+}
+
 .hours{
   display: flex;
   flex-direction: column;
@@ -113,6 +117,8 @@ main{
   width: 80%;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 400px;
+  
 }
 
 #content-1{
@@ -129,6 +135,7 @@ main{
   display: flex;
   flex-direction: column;
   float: left;
+  padding: 10px;
  
 }
 .fastfood{
@@ -142,7 +149,7 @@ main{
   box-shadow: 2px 2px 5px black;
   display: flex;
   float: right;
-  padding: 2px;
+  padding: 10px;
 
 }
 .drinks-content{
@@ -171,6 +178,7 @@ main{
   /* height: 300px; */
   padding: 100px 0 ;
   text-align: center;
+  
 }
 .fastfood-footer{
   background-color: white;
